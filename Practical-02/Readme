@@ -1,0 +1,51 @@
+# Practical 2 - ML Lab (Linear Regression)
+
+**Author:** Prabhkirat Singh Marwah  
+**Batch:** B4  
+**Section:** B  
+**Roll No:** 47  
+
+---
+
+## USA Housing - Linear Regression
+
+This project applies simple linear regression on the USA Housing dataset to predict house prices.
+
+## Dataset
+- Name: USA Housing  
+- Features:
+  - Avg Area Income  
+  - Avg Area House Age  
+  - Avg Area Number of Rooms  
+  - Avg Area Number of Bedrooms  
+  - Area Population  
+- Target:
+  - Price  
+
+## Objective
+To build a linear regression model that predicts house prices based on input features.
+
+## Steps Performed
+1. Loaded dataset using pandas  
+2. Checked and cleaned data  
+3. Performed exploratory data analysis  
+4. Split data into training and testing sets  
+5. Trained Linear Regression model  
+6. Evaluated model performance  
+
+## Tools Used
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- Scikit-learn  
+
+## Model Evaluation
+- MAE (Mean Absolute Error)  
+- MSE (Mean Squared Error)  
+- RMSE (Root Mean Squared Error)  
+- R² Score  
+
+## Output
+The model predicts house prices based on given input features and shows a linear relationship between income and price.
