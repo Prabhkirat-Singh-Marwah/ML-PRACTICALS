@@ -1,0 +1,30 @@
+# ML Lab Practical 6: ANN on Seeds Dataset
+
+**Author:** Prabhkirat Singh Marwah
+**Section:** B | **Batch:** B4 | **Roll No:** 47
+**Subject:** Machine Learning Lab | **Practical No.:** 6
+
+## Aim
+To build and train an Artificial Neural Network (ANN) that classifies wheat seeds into 3 classes.
+
+## Dataset
+`seeds_new.csv`: 7 numerical features, target column `Class (1, 2, 3)`.
+
+## Model
+Input (7) → Dense 16 (ReLU) → Dense 8 (ReLU) → Dense 3 (Softmax)
+
+## Settings
+Adam (lr = 0.001), Sparse Categorical Crossentropy, up to 100 epochs, batch size 32, validation split 20%, Early Stopping (patience = 10). Data split: 80% train and 20% test, scaled with `StandardScaler`.
+
+## Results
+| Accuracy | Precision | Recall | F1 Score |
+|----------|-----------|--------|----------|
+| 88.10% | 0.8995 | 0.8810 | 0.8731 |
+
+## How to Run
+1. `pip install numpy pandas matplotlib seaborn scikit-learn tensorflow`
+2. Keep `seeds_new.csv` next to `Untitled13.ipynb`.
+3. Run all cells in order.
+
+## Conclusion
+The ANN classified the seed types with 88.10% test accuracy.
